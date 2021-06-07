@@ -9,7 +9,7 @@ cols=['Full Name','Email ID','User Name','Password','Age','Mobile Number']
 d=dict(zip(cols,zip(*r2)))
 ######################################################
 ##total users
-users=len(d['Full Name'])
+total_users=len(d['Full Name'])
 
 #####################################################
 #### for average age
@@ -19,7 +19,7 @@ sum=0
 for i in l:
     sum=int(i)+sum
     
-av_age=sum/len(l)
+avg_age=sum/len(l)
 
 #####################################################
 ####Counting number of mail id's
